@@ -36,10 +36,10 @@ if 'college_name' in student_info.keys():
 else:
     print("'college_name' does not exist in the student_info dictionary.")
 
+print()
+print()
 
 # Q2. You are given three sets representing students enrolled in different courses:
-print()
-print()
 python_students = {"Alice", "Bob", "Charlie", "David"}
 java_students = {"Bob", "Eve", "Frank", "David"}
 cpp_students = {"Charlie", "George", "Eve", "Henry"}
