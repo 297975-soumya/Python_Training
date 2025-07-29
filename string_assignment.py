@@ -83,5 +83,3 @@ capitalized_words = [word.capitalize() for word in words]
 str4 = " ".join(capitalized_words)
 print(str4)
 
-
-
