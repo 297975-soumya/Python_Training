@@ -185,12 +185,14 @@ print(flattened_dict)
 #  *******
 # *********
 
-n = 5
-
-for i in range(1, n + 1):
-    print(" "*i+"*"*((n*2)-2))
-    n-=1
-
+n1 = 5
+for i in range(1, n1 + 1):
+    print(" "*i+"*"*((n1*2)-1))
+    n1-=1
+n2 = 5
+for j in range(2, n2 + 1):
+    print(" "*(n2-1)+"*"*((j*2)-1))
+    n2-=1
 
 
 
