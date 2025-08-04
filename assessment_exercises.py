@@ -361,6 +361,10 @@
 #     print(" ".join(row))
 
 
+# __SET 5__:
+
+# 1. Area calculator for Circle or Square
+
 
 
 
