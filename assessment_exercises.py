@@ -363,11 +363,26 @@
 
 # __SET 5__:
 
-# 1. Area calculator for Circle or Square
+# 1. Area calculator for Circle or Square:
+# shape = input("Enter circle or square: ")
+# if shape == "circle":
+#     r = float(input("Enter radius: "))
+#     print(f"Area of the circle with radius {r} is {3.14*r*r}")
+# elif shape == "square":
+#      a = float(input("Enter length of the side of a square: "))
+#      print(f"Area of the square with side {a} is {a*a}")
 
+# 2. List intersection without \
+# Input two lists, print common elements without using set()
+# l1 = [1, 2, 3, 4, 5]
+# l2 = [2, 4, 6, 7, 8]
+# l3 = []
+# for i in l1:
+#     if i in l2:
+#         l3.append(i)
+# print(l3)
 
-
-
+# 3. Temperature alert system (Nested If)
 
 
 
