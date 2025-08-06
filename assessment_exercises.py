@@ -383,6 +383,43 @@
 # print(l3)
 
 # 3. Temperature alert system (Nested If)
+# Input temperature and humidity:
+# if temp > 40:
+#       if humidity > 60 -> "Hot & Humid"
+#       else -> "Only Hot"
+# else -> "Normal"
+
+temperature = int(input("Enter temperature: "))
+humidity = int(input("Enter humidity: "))
+
+if temperature > 40:
+    if humidity > 60:
+        print("Hot & Humid")
+    else:
+        print("Only Hot")
+else:
+    print("Normal")
+
+# 4. Flatten and Sort all values from Dict
+# Input: {"a": {"x": 5, "y": 3}, "b": 1, "c": {"z": 2}}
+# Output: [1, 2, 3, 5]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
